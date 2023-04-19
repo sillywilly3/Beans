@@ -1,0 +1,15 @@
+javascript:(function(){
+  var hasGoGuardian = false;
+  var scripts = document.scripts;
+  for (var i = 0; i < scripts.length; i++) {
+    if (scripts[i].src.includes("goguardian.com")) {
+      hasGoGuardian = true;
+      break;
+    }
+  }
+  if (hasGoGuardian) {
+    alert("GoGuardian is being used on this page!");
+  } else {
+    windows.close();
+  }
+})();
