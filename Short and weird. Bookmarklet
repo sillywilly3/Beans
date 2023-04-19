@@ -1,0 +1,4 @@
+javascript:alert('The following is meant as a joke and is not serious'); 
+num=prompt('What is your name child. Daddy wants to know.');
+alert(num);
+alert('Thankyu For Your Personal Information Child!')
